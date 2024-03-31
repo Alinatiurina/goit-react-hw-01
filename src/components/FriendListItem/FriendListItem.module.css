@@ -1,0 +1,31 @@
+.friendsList {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.friendsItem {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.friendsImg {
+  width: 100px;
+}
+.friendsName {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  font-size: 24px;
+}
+.friendsStat {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+.isOnline {
+  color: green;
+}
+
+.isOfline {
+  color: orangered;
+}
